@@ -32,3 +32,14 @@ const displayOptions = () => {
     }
     optionsContainer.appendChild(buttonCon);
   };
+
+  //Initial Function (Called when page loads/user presses new game)
+const initializer = () => {
+  winCount = 0;
+  count = 0;
+  displayOptions();
+};
+
+//New Game
+newGameButton.addEventListener("click", initializer);
+window.onload = initializer;

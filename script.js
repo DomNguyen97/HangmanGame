@@ -33,6 +33,18 @@ const displayOptions = () => {
     optionsContainer.appendChild(buttonCon);
   };
 
+  //Word Generator
+const generateWord = (optionValue) => {
+  let optionsButtons = document.querySelectorAll(".options");
+  //If optionValur matches the button innerText then highlight the button
+  optionsButtons.forEach((button) => {
+    if (button.innerText.toLowerCase() === optionValue) {
+      button.classList.add("active");
+    }
+    button.disabled = true;
+  });
+}
+
   //Initial Function (Called when page loads/user presses new game)
 const initializer = () => {
   winCount = 0;

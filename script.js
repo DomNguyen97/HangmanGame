@@ -33,6 +33,21 @@ const displayOptions = () => {
     optionsContainer.appendChild(buttonCon);
   };
 
+  //Block all the Buttons
+const blocker = () => {
+  let optionsButtons = document.querySelectorAll(".options");
+  let letterButtons = document.querySelectorAll(".letters");
+  //disable all options
+  optionsButtons.forEach((button) => {
+    button.disabled = true;
+  });
+  //disable all letters
+  letterButtons.forEach((button) => {
+    button.disabled.true;
+  });
+  newGameContainer.classList.remove("hide");
+};
+
   //Word Generator
 const generateWord = (optionValue) => {
   let optionsButtons = document.querySelectorAll(".options");
@@ -43,6 +58,11 @@ const generateWord = (optionValue) => {
     }
     button.disabled = true;
   });
+
+    //initially hide letters, clear previous word
+    letterContainer.classList.remove("hide");
+    userInputSection.innerText = "";
+  
 }
 
   //Initial Function (Called when page loads/user presses new game)

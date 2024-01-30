@@ -33,6 +33,8 @@ const displayOptions = () => {
     optionsContainer.appendChild(buttonCon);
   };
 
+
+
   //Block all the Buttons
 const blocker = () => {
   let optionsButtons = document.querySelectorAll(".options");
@@ -62,6 +64,11 @@ const generateWord = (optionValue) => {
     //initially hide letters, clear previous word
     letterContainer.classList.remove("hide");
     userInputSection.innerText = "";
+
+    let optionArray = options[optionValue];
+    //choose random word
+    chosenWord = optionArray[Math.floor(Math.random() * optionArray.length)];
+    chosenWord = chosenWord.toUpperCase();
   
 }
 

@@ -84,6 +84,13 @@ const initializer = () => {
   winCount = 0;
   count = 0;
 
+  //Initially erase all content and hide letteres and new game button
+  userInputSection.innerHTML = "";
+  optionsContainer.innerHTML = "";
+  letterContainer.classList.add("hide");
+  newGameContainer.classList.add("hide");
+  letterContainer.innerHTML = "";
+
  //For creating letter buttons
  for (let i = 65; i < 91; i++) {
   let button = document.createElement("button");

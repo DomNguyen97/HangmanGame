@@ -149,6 +149,31 @@ const canvasCreator = () => {
   context.lineWidth = 2;
 };
 
+ //For drawing lines
+ const drawLine = (fromX, fromY, toX, toY) => {
+  context.moveTo(fromX, fromY);
+  context.lineTo(toX, toY);
+  context.stroke();
+};
+
+const body = () => {
+  drawLine(70, 40, 70, 80);
+};
+const leftArm = () => {
+  drawLine(70, 50, 50, 70);
+};
+const rightArm = () => {
+  drawLine(70, 50, 90, 70);
+};
+const leftLeg = () => {
+  drawLine(70, 80, 50, 110);
+};
+const rightLeg = () => {
+  drawLine(70, 80, 90, 110);
+};
+
+
+
 //New Game
 newGameButton.addEventListener("click", initializer);
 window.onload = initializer;

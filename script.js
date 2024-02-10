@@ -135,6 +135,18 @@ const initializer = () => {
       letterContainer.append(button);
     }
   displayOptions();
+    //Call to canvasCreator (for clearing previous canvas and creating initial canvas)
+    let { initialDrawing } = canvasCreator();
+    //initialDrawing would draw the frame
+    initialDrawing();
+};
+
+//Canvas
+const canvasCreator = () => {
+  let context = canvas.getContext("2d");
+  context.beginPath();
+  context.strokeStyle = "#000";
+  context.lineWidth = 2;
 };
 
 //New Game

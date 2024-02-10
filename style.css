@@ -121,8 +121,8 @@
     border-radius: 0.2em;
   }
   .win-msg {
-    color: #39d78d;
+    color: lightblue;
   }
   .lose-msg {
-    color: #fe5152;
+    color: red;
   }

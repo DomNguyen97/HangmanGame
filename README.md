@@ -1,5 +1,5 @@
-# <Your Project's Title>
-A description of your game. Background info of the game is a nice touch.
+# HangMan
+Spaceman is a single player game where the player is given a limited number of guesses to a specific word with the only clues they have and blank spaces which represent the number of letters that specific word contains and a hint given by the game. Everytime the player makes a incorrect guess, a park of the spaceman is added to the board. If the player guesses incorrectly too many times, the spaceman will be complete and the player loses.
 
 # Screenshot
 
@@ -8,10 +8,10 @@ A description of your game. Background info of the game is a nice touch.
 
 # Technologies Used
 
-- JavaScript
-- HTML
-- CSS
-- CardStarter CSS Library
+- JavaScript(https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+- HTML (https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+- CSS (https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+
 
 # Getting Started
 

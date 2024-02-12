@@ -9,8 +9,8 @@ Spaceman is a single player game where the player is given a limited number of g
 # Technologies Used
 
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
-- ![HTML] (https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
-- ![CSS] (https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+- ![HTML](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+- ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
 
 
 # Getting Started
